@@ -5,3 +5,4 @@ git add */filename           -> Stages *(All files) or by given file name
 git commit -m "commit message" -> Commits staged files
 git push                     -> Pushes to your current branch
 reset --hard origin/branchname ->wipe local changed with remote1
+git pull <remote_name> <branch_name> ->get file from remote repo

@@ -7,3 +7,4 @@ git push                     -> Pushes to your current branch
 git reset --hard origin/branchname ->wipe local changed with remote1
 git pull <remote_name> <branch_name> ->get file from remote repo
 git reset <branch_name>              -> reset branch to last commit (..use --hard option for vscode change)
+false commit

@@ -6,10 +6,6 @@ git commit -m "commit message" -> Commits staged files
 git push                     -> Pushes to your current branch
 git reset --hard origin/branchname ->wipe local changed with remote1
 git pull <remote_name> <branch_name> ->get file from remote repo
-<<<<<<< HEAD
 git reset <branch_name>              -> reset branch to last commit (..use --hard option for vscode change)
 git reset head~1                     -> reset head to last but one commit
 git reset --hard <hash_of_commit_to_set_as_head>
-=======
-git reset <branch_name>              -> reset branch to last commit (..use --hard option for vscode change)
->>>>>>> 6be500c9b61f9bb257521b8061a12cb31ed1293e

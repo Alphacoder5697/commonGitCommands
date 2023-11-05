@@ -10,5 +10,8 @@ git reset <branch_name>              -> reset branch to last commit (..use --har
 git reset head~1                     -> reset head to last but one commit
 git reset --hard <hash_of_commit_to_set_as_head>
 
+--------------------------remote------------------------------------------------
+git remote show                  -> lists all active remotes
+git remote add origin <repo_url> ->add  remote for push
 note:: rebase only self branch here newBRANCH noot master as rebase rewrites git history
 rebase should use as it group branch features together and maintains clear records , merge reuires commits (whenever merge is done new commmit record is created.)
